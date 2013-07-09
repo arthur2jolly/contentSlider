@@ -1,0 +1,72 @@
+#slider {
+    position: relative;
+	overflow: hidden;
+}
+
+
+.bullets {
+    bottom: 10px;
+    display: none;
+    height: 14px;
+    left: 50%;
+    padding: 0;
+    position: absolute;
+    vertical-align: bottom;
+}
+
+.bullets a {
+    background: url("../img/bullets.png") no-repeat center bottom;
+    display: inline-block;
+    height: 14px;
+    margin: 0 5px;
+    padding: 0;
+    width: 14px;
+}
+
+.bullets a.selected {
+    background: url("../img/bullets.png") no-repeat center top;
+}
+
+.bullets {
+    z-index: 5;
+}
+
+#slider .item {
+    position:absolute;
+    width:100%;
+}
+
+.affl-slider img {
+    position:absolute;
+    left:50%;
+    margin-left: -640px;
+}
+
+.affl-slide-content-wrapper{
+    margin:0 auto;
+    position:relative;
+    width:980px;
+}
+
+
+
+#slider .bullets {
+        display: block;
+        margin: 10px 0 0 0;
+        padding: 0; 
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+ }
+#slider .bullets a {
+          background: url(../img/bullets.png) top center no-repeat;
+          display: inline-block;
+          height: 14px;
+          margin: 0 5px;
+          padding: 0;
+          width: 14px; }
+#slider .bullets a.selected {
+            background: url(../img/bullets.png) bottom center no-repeat; }
+#slider .bullets a:hover {
+            background: url(../img/bullets.png) bottom center no-repeat; 
+ }
